@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <button id="install-button">Install</button>
+      <button id="install-button" onClick={installUp}>Install</button>
     </div>
   )
 }
